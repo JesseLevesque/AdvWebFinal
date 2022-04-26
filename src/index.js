@@ -26,13 +26,13 @@ console.log(bookArr);
 
 
 let jsonDataHair;
-fetch("../src/api/Hairstyles.json").then(function(resp) {
+fetch("api/Hairstyles.json").then(function(resp) {
     return resp.json();
 }).then(function(data) {
     jsonDataHair = data;
 })
 let jsonDataProducts;
-fetch("../src/api/Products.json").then(function(resp) {
+fetch("api/Products.json").then(function(resp) {
     return resp.json();
 }).then(function(data) {
     jsonDataProducts = data;
